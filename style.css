@@ -1,6 +1,11 @@
 body{
     background-color: cornsilk;
+    justify-content: center;
+    align-content: center;
 }
-form{
-    position: relative;
+.search,.result{
+   
+    min-height: 200em;
+    /* min-width: 50em; */
 }
+  

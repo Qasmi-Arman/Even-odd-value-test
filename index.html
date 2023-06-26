@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Properties </title>
-    <!-- <link rel="shortcut icon" href="./icon.png" type="image/x-icon" > -->
-    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <link  href="./code.js">
-
-</head>
-<body>
-    <form id="search">
-        <input 
+    <script src="./code.mjs" defer></script>
+  </head>
+  <body>
+    <form id="searchbox">
+      <input
+        id="value"
         type="number"
+        placeholder="Enter any number"
         required
-        placeholder="Enter any Number">
-        
+      />
+      <button type="submit">Check</button>
     </form>
-</body>
+    <p><h1>Result</h1></p>
+    <p id="result"></p>
+
+    
+  </body>
 </html>
